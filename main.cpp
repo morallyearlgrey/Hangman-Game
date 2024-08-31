@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// STICKMAN
 // encompasses the stickman and its 6 body parts for the hangman game
 struct stickman {
     bool head;
@@ -66,6 +67,7 @@ struct stickman {
     }
 };
 
+// GAME
 // encompasses the entire game and its associated functions
 class game {
     int rows = 8;
@@ -211,6 +213,7 @@ public:
     }
 };
 
+// MAIN
 // plays the game
 int main() {
     srand(time(0));
